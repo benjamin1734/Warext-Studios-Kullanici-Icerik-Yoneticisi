@@ -47,3 +47,55 @@ Super admin hesapları Warext UCM izinlerine otomatik olarak sahiptir. Diğer mo
 ## Eklenti kimliği
 
 `WarextStudios/UserContentManager`
+
+---
+
+# English
+
+Warext Studios User Content Manager is a XenForo 2.3 moderation add-on for viewing, filtering, and managing user-created content by content type and category, including permission-controlled bulk actions.
+
+## Version
+
+`1.0.5`
+
+## Direct XenForo installation
+
+**Installation ZIP:** [WarextStudios-UserContentManager-1.0.5.zip](releases/WarextStudios-UserContentManager-1.0.5.zip?raw=1)
+
+Upload the ZIP directly through XenForo Admin CP > Add-ons > Install/upgrade from archive.
+
+## Usage
+
+- Forum user profile > Moderator tools > Manage Content
+- Admin CP > Users > User Content Manager
+- Admin CP > Users > edit user > Actions > Manage Content
+
+Super admin accounts automatically have Warext UCM permissions. Other moderators and administrators must be granted the relevant `warextUcm` permissions separately.
+
+## Requirements
+
+- XenForo 2.3.0+
+- PHP 8.1+
+- PHP 8.4 compatible
+- XenForo Resource Manager is optional
+
+## Features
+
+- Central user-content management interface
+- XenForo-native/default UI components
+- Thread category grouping and advanced filtering
+- Selection of individual items, the current page, a category, or the entire filtered result set
+- Bulk move, soft delete, permanent delete, restore, lock, and sticky operations
+- Bulk approval, prefix editing, and title editing
+- Separate permission and explicit confirmation for permanent deletion
+- XenForo native permission revalidation per content item
+- Operation history and XenForo moderator-log integration
+- One user warning based on multiple selected threads
+- Optional XenForo Resource Manager integration
+- XenForo Job system for operations above 500 items
+- Cursor-based batch processing
+- Operation-based concurrency locking and idempotent progress
+
+## Add-on ID
+
+`WarextStudios/UserContentManager`
