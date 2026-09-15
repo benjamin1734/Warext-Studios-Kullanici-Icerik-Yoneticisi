@@ -7,6 +7,9 @@ on:
   pull_request:
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   validate:
     runs-on: ubuntu-latest
@@ -107,3 +110,53 @@ jobs:
           name: WarextStudios-UserContentManager-${{ env.ADDON_VERSION }}
           path: releases/WarextStudios-UserContentManager-${{ env.ADDON_VERSION }}.zip
           if-no-files-found: error
+      - name: Create or update GitHub Release
+        if: matrix.php == '8.4' && github.event_name != 'pull_request'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          TAG="v${ADDON_VERSION}"
+          FILE="releases/WarextStudios-UserContentManager-${ADDON_VERSION}.zip"
+          cat > /tmp/release-notes.md <<'EOF'
+# Warext Studios | Kullanıcı İçerik Yöneticisi
+
+XenForo 2.3 için kullanıcıların oluşturduğu içerikleri kategori ve içerik türüne göre görüntülemek, filtrelemek ve yetkiye bağlı olarak toplu yönetmek amacıyla geliştirilen moderasyon eklentisi.
+
+- Kullanıcı içerik yönetim merkezi
+- Konu kategori gruplaması ve gelişmiş filtreleme
+- Tekli, sayfa, kategori ve tüm filtre sonucu seçimi
+- Toplu taşıma, silme, kalıcı silme, geri getirme, kilit ve sabitleme
+- Toplu onay, önek ve başlık düzenleme
+- XenForo native permission yeniden doğrulaması ve moderator log entegrasyonu
+- XenForo Resource Manager için opsiyonel entegrasyon
+- 500 üzeri işlemlerde XenForo Job sistemi ve cursor tabanlı batch işleme
+
+Kurulum ZIP'i XenForo Admin CP > Add-ons > Install/upgrade from archive alanına doğrudan yüklenebilir.
+
+---
+
+## English
+
+# Warext Studios | User Content Manager
+
+A moderation add-on for XenForo 2.3 designed to view, filter and permission-gated bulk-manage content created by a user, grouped by content type and category.
+
+- User content management center
+- Thread category grouping and advanced filtering
+- Single-item, page, category and entire filtered-result selection
+- Bulk move, delete, permanent delete, restore, lock and sticky actions
+- Bulk approval, prefix and title editing
+- XenForo-native permission revalidation and moderator-log integration
+- Optional XenForo Resource Manager integration
+- XenForo Job processing with cursor-based batches for operations above 500 items
+
+The installation ZIP can be uploaded directly through XenForo Admin CP > Add-ons > Install/upgrade from archive.
+EOF
+          if gh release view "$TAG" >/dev/null 2>&1; then
+            gh release edit "$TAG" --title "Warext Studios | Kullanıcı İçerik Yöneticisi ${ADDON_VERSION}" --notes-file /tmp/release-notes.md
+            gh release upload "$TAG" "$FILE" --clobber
+          else
+            gh release create "$TAG" "$FILE" --target "$GITHUB_SHA" --title "Warext Studios | Kullanıcı İçerik Yöneticisi ${ADDON_VERSION}" --notes-file /tmp/release-notes.md
+          fi
