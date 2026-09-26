@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language title="Warext User Content Manager English (US)" date_format="M j, Y" time_format="g:i A" decimal_point="." thousands_separator="," language_code="en-US" text_direction="LTR">
+  <phrase title="permission_group_warextUcm" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1001010" version_string="1.0.1"><![CDATA[Warext Studios | User Content Manager]]></phrase>
+  <phrase title="permission_warextUcm_view" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1001010" version_string="1.0.1"><![CDATA[Can view the user content management page]]></phrase>
+  <phrase title="permission_warextUcm_bulk" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1001010" version_string="1.0.1"><![CDATA[Can perform bulk content actions]]></phrase>
+  <phrase title="permission_warextUcm_hardDelete" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1001010" version_string="1.0.1"><![CDATA[Can permanently delete content]]></phrase>
+  <phrase title="permission.warextUcm_view" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1001030" version_string="1.0.3"><![CDATA[Can view the user content management page]]></phrase>
+  <phrase title="permission.warextUcm_bulk" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1001030" version_string="1.0.3"><![CDATA[Can perform bulk content actions]]></phrase>
+  <phrase title="permission.warextUcm_hardDelete" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1001030" version_string="1.0.3"><![CDATA[Can permanently delete content]]></phrase>
+  <phrase title="admin_navigation.warextUcmAdmin" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1001030" version_string="1.0.3"><![CDATA[User Content Manager]]></phrase>
+  <phrase title="warext_ucm_manage_content" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1000030" version_string="0.3.0"><![CDATA[Manage Content]]></phrase>
+  <phrase title="warext_ucm_page_title_x" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1000030" version_string="0.3.0"><![CDATA[{username} | Content Management]]></phrase>
+  <phrase title="warext_ucm_summary" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1000030" version_string="0.3.0"><![CDATA[Content Summary]]></phrase>
+  <phrase title="warext_ucm_threads" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1000030" version_string="0.3.0"><![CDATA[Threads]]></phrase>
+  <phrase title="warext_ucm_total_threads" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1000030" version_string="0.3.0"><![CDATA[Total threads]]></phrase>
+  <phrase title="warext_ucm_visible_threads" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1000030" version_string="0.3.0"><![CDATA[Visible]]></phrase>
+  <phrase title="warext_ucm_deleted_threads" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1000030" version_string="0.3.0"><![CDATA[Deleted]]></phrase>
+  <phrase title="warext_ucm_moderated_threads" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1000030" version_string="0.3.0"><![CDATA[Awaiting approval]]></phrase>
+  <phrase title="warext_ucm_locked_threads" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1000030" version_string="0.3.0"><![CDATA[Locked]]></phrase>
+  <phrase title="warext_ucm_thread_state_deleted" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1000030" version_string="0.3.0"><![CDATA[Deleted]]></phrase>
+  <phrase title="warext_ucm_thread_state_moderated" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1000030" version_string="0.3.0"><![CDATA[Onay bekliyor]]></phrase>
+  <phrase title="warext_ucm_thread_state_locked" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1000030" version_string="0.3.0"><![CDATA[Locked]]></phrase>
+  <phrase title="warext_ucm_no_threads" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1000030" version_string="0.3.0"><![CDATA[No viewable threads were found for this user.]]></phrase>
+  <phrase title="warext_ucm_thread_handler_unavailable" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1000030" version_string="0.3.0"><![CDATA[The thread content handler is unavailable.]]></phrase>
+  <phrase title="warext_ucm_filters" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1000040" version_string="0.4.0"><![CDATA[Filters]]></phrase>
+  <phrase title="warext_ucm_category" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1000040" version_string="0.4.0"><![CDATA[Category]]></phrase>
+  <phrase title="warext_ucm_forum_subcategory" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1000040" version_string="0.4.0"><![CDATA[Forum / subcategory]]></phrase>
+  <phrase title="warext_ucm_all" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1000040" version_string="0.4.0"><![CDATA[All]]></phrase>
+  <phrase title="warext_ucm_state" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1000040" version_string="0.4.0"><![CDATA[Content state]]></phrase>
+  <phrase title="warext_ucm_lock_state" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1000040" version_string="0.4.0"><![CDATA[Lock state]]></phrase>
+  <phrase title="warext_ucm_open_threads" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1000040" version_string="0.4.0"><![CDATA[Open]]></phrase>
+  <phrase title="warext_ucm_prefix" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1000040" version_string="0.4.0"><![CDATA[Prefix]]></phrase>
+  <phrase title="warext_ucm_no_prefix" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1000040" version_string="0.4.0"><![CDATA[No prefix]]></phrase>
+  <phrase title="warext_ucm_title_contains" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1000040" version_string="0.4.0"><![CDATA[Title contains]]></phrase>
+  <phrase title="warext_ucm_date_from" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1000040" version_string="0.4.0"><![CDATA[Start date]]></phrase>
+  <phrase title="warext_ucm_date_to" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1000040" version_string="0.4.0"><![CDATA[End date]]></phrase>
+  <phrase title="warext_ucm_min_replies" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1000040" version_string="0.4.0"><![CDATA[Minimum replies]]></phrase>
+  <phrase title="warext_ucm_max_replies" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1000040" version_string="0.4.0"><![CDATA[Maximum replies]]></phrase>
+  <phrase title="warext_ucm_min_views" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1000040" version_string="0.4.0"><![CDATA[Minimum views]]></phrase>
+  <phrase title="warext_ucm_max_views" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1000040" version_string="0.4.0"><![CDATA[Maximum views]]></phrase>
+  <phrase title="warext_ucm_sort" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1000040" version_string="0.4.0"><![CDATA[Sort]]></phrase>
+  <phrase title="warext_ucm_sort_last_post" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1000040" version_string="0.4.0"><![CDATA[Last post date]]></phrase>
+  <phrase title="warext_ucm_sort_created" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1000040" version_string="0.4.0"><![CDATA[Creation date]]></phrase>
+  <phrase title="warext_ucm_sort_title" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1000040" version_string="0.4.0"><![CDATA[Title]]></phrase>
+  <phrase title="warext_ucm_sort_replies" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1000040" version_string="0.4.0"><![CDATA[Reply count]]></phrase>
+  <phrase title="warext_ucm_sort_views" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1000040" version_string="0.4.0"><![CDATA[View count]]></phrase>
+  <phrase title="warext_ucm_direction" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1000040" version_string="0.4.0"><![CDATA[Sort direction]]></phrase>
+  <phrase title="warext_ucm_descending" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1000040" version_string="0.4.0"><![CDATA[Descending]]></phrase>
+  <phrase title="warext_ucm_ascending" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1000040" version_string="0.4.0"><![CDATA[Ascending]]></phrase>
+  <phrase title="warext_ucm_apply_filters" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1000040" version_string="0.4.0"><![CDATA[Apply Filters]]></phrase>
+  <phrase title="warext_ucm_clear_filters" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1000040" version_string="0.4.0"><![CDATA[Clear filters]]></phrase>
+  <phrase title="warext_ucm_threads_filtered_x" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1000040" version_string="0.4.0"><![CDATA[Threads ({count})]]></phrase>
+  <phrase title="warext_ucm_unknown_category" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1000040" version_string="0.4.0"><![CDATA[Category not found]]></phrase>
+  <phrase title="warext_ucm_bulk_operations" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1000070" version_string="0.7.0"><![CDATA[Bulk Actions]]></phrase>
+  <phrase title="warext_ucm_selection_scope" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1000070" version_string="0.7.0"><![CDATA[Action scope]]></phrase>
+  <phrase title="warext_ucm_scope_selected" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1000070" version_string="0.7.0"><![CDATA[Selected threads]]></phrase>
+  <phrase title="warext_ucm_scope_page" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1000070" version_string="0.7.0"><![CDATA[All threads on this page]]></phrase>
+  <phrase title="warext_ucm_scope_category" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1000070" version_string="0.7.0"><![CDATA[All threads in the selected category / forum]]></phrase>
+  <phrase title="warext_ucm_scope_filter" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1000070" version_string="0.7.0"><![CDATA[All threads in the current filter result]]></phrase>
+  <phrase title="warext_ucm_bulk_action" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1000070" version_string="0.7.0"><![CDATA[Action]]></phrase>
+  <phrase title="warext_ucm_choose_action" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1000070" version_string="0.7.0"><![CDATA[Choose an action]]></phrase>
+  <phrase title="warext_ucm_action_move" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1000070" version_string="0.7.0"><![CDATA[Move category / forum]]></phrase>
+  <phrase title="warext_ucm_action_soft_delete" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1000070" version_string="0.7.0"><![CDATA[Delete]]></phrase>
+  <phrase title="warext_ucm_action_hard_delete" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1000070" version_string="0.7.0"><![CDATA[Permanently delete]]></phrase>
+  <phrase title="warext_ucm_action_restore" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1000070" version_string="0.7.0"><![CDATA[Restore]]></phrase>
+  <phrase title="warext_ucm_action_lock" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1000070" version_string="0.7.0"><![CDATA[Lock]]></phrase>
+  <phrase title="warext_ucm_action_unlock" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1000070" version_string="0.7.0"><![CDATA[Unlock]]></phrase>
+  <phrase title="warext_ucm_action_stick" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1000070" version_string="0.7.0"><![CDATA[Stick]]></phrase>
+  <phrase title="warext_ucm_action_unstick" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1000070" version_string="0.7.0"><![CDATA[Unstick]]></phrase>
+  <phrase title="warext_ucm_action_approve" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1000070" version_string="0.7.0"><![CDATA[Approve]]></phrase>
+  <phrase title="warext_ucm_action_unapprove" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1000070" version_string="0.7.0"><![CDATA[Unapprove]]></phrase>
+  <phrase title="warext_ucm_action_prefix" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1000070" version_string="0.7.0"><![CDATA[Change prefix]]></phrase>
+  <phrase title="warext_ucm_action_title_prepend" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1000070" version_string="0.7.0"><![CDATA[Prepend text to title]]></phrase>
+  <phrase title="warext_ucm_action_title_append" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1000070" version_string="0.7.0"><![CDATA[Append text to title]]></phrase>
+  <phrase title="warext_ucm_action_title_replace" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1000070" version_string="0.7.0"><![CDATA[Replace text in title]]></phrase>
+  <phrase title="warext_ucm_target_forum" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1000070" version_string="0.7.0"><![CDATA[Target forum]]></phrase>
+  <phrase title="warext_ucm_choose_forum" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1000070" version_string="0.7.0"><![CDATA[Choose forum]]></phrase>
+  <phrase title="warext_ucm_target_prefix" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1000070" version_string="0.7.0"><![CDATA[New prefix]]></phrase>
+  <phrase title="warext_ucm_remove_prefix" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1000070" version_string="0.7.0"><![CDATA[Remove prefix]]></phrase>
+  <phrase title="warext_ucm_reason" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1000070" version_string="0.7.0"><![CDATA[Action reason]]></phrase>
+  <phrase title="warext_ucm_title_value" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1000070" version_string="0.7.0"><![CDATA[Text to add to title]]></phrase>
+  <phrase title="warext_ucm_title_search" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1000070" version_string="0.7.0"><![CDATA[Text to find in title]]></phrase>
+  <phrase title="warext_ucm_title_replace" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1000070" version_string="0.7.0"><![CDATA[Replacement text]]></phrase>
+  <phrase title="warext_ucm_hard_delete_confirmation" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1000070" version_string="0.7.0"><![CDATA[Permanent deletion confirmation]]></phrase>
+  <phrase title="warext_ucm_hard_delete_confirm_text" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1000070" version_string="0.7.0"><![CDATA[I understand that permanent deletion cannot be undone]]></phrase>
+  <phrase title="warext_ucm_apply_bulk" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1000070" version_string="0.7.0"><![CDATA[Apply Bulk Action]]></phrase>
+  <phrase title="warext_ucm_invalid_bulk_action" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1000070" version_string="0.7.0"><![CDATA[An invalid bulk action was selected.]]></phrase>
+  <phrase title="warext_ucm_invalid_selection_scope" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1000070" version_string="0.7.0"><![CDATA[Invalid selection scope.]]></phrase>
+  <phrase title="warext_ucm_category_selection_requires_filter" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1000070" version_string="0.7.0"><![CDATA[To use category scope, first select a category or forum filter.]]></phrase>
+  <phrase title="warext_ucm_select_at_least_one" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1000070" version_string="0.7.0"><![CDATA[You must select at least one thread.]]></phrase>
+  <phrase title="warext_ucm_immediate_limit_x" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1000070" version_string="0.7.0"><![CDATA[A maximum of {limit} threads can be processed in one request. Larger actions will be queued.]]></phrase>
+  <phrase title="warext_ucm_no_bulk_matches" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1000070" version_string="0.7.0"><![CDATA[No matching threads are eligible for processing.]]></phrase>
+  <phrase title="warext_ucm_target_forum_required" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1000070" version_string="0.7.0"><![CDATA[For the move action, choose a target forum you can access.]]></phrase>
+  <phrase title="warext_ucm_hard_delete_confirmation_required" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1000070" version_string="0.7.0"><![CDATA[You must explicitly confirm permanent deletion.]]></phrase>
+  <phrase title="warext_ucm_bulk_result_x" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1000070" version_string="0.7.0"><![CDATA[Bulk action completed: {processed} processed, {skipped} skipped due to permission or state, {failed} failed.]]></phrase>
+  <phrase title="warext_ucm_i18n_status" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1010000" version_string="1.1.0"><![CDATA[Status]]></phrase>
+  <phrase title="warext_ucm_i18n_scope" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1010000" version_string="1.1.0"><![CDATA[Scope]]></phrase>
+  <phrase title="warext_ucm_i18n_action" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1010000" version_string="1.1.0"><![CDATA[Action]]></phrase>
+  <phrase title="warext_ucm_i18n_search_text" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1010000" version_string="1.1.0"><![CDATA[Search text]]></phrase>
+  <phrase title="warext_ucm_i18n_filter" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1010000" version_string="1.1.0"><![CDATA[Filter]]></phrase>
+  <phrase title="warext_ucm_i18n_target_category" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1010000" version_string="1.1.0"><![CDATA[Target category]]></phrase>
+  <phrase title="warext_ucm_i18n_new_prefix_id" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1010000" version_string="1.1.0"><![CDATA[New prefix ID]]></phrase>
+  <phrase title="warext_ucm_i18n_reason" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1010000" version_string="1.1.0"><![CDATA[Reason]]></phrase>
+  <phrase title="warext_ucm_i18n_apply" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1010000" version_string="1.1.0"><![CDATA[Apply]]></phrase>
+  <phrase title="warext_ucm_i18n_warning_type" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1010000" version_string="1.1.0"><![CDATA[Warning type]]></phrase>
+  <phrase title="warext_ucm_i18n_create_warning" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1010000" version_string="1.1.0"><![CDATA[Create Warning]]></phrase>
+  <phrase title="warext_ucm_i18n_resources" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1010000" version_string="1.1.0"><![CDATA[Resources]]></phrase>
+  <phrase title="warext_ucm_i18n_action_history" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1010000" version_string="1.1.0"><![CDATA[Action History]]></phrase>
+  <phrase title="warext_ucm_i18n_warn" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1010000" version_string="1.1.0"><![CDATA[Warn]]></phrase>
+  <phrase title="warext_ucm_i18n_this_page" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1010000" version_string="1.1.0"><![CDATA[This page]]></phrase>
+  <phrase title="warext_ucm_i18n_selected_category_forum" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1010000" version_string="1.1.0"><![CDATA[Selected category / forum]]></phrase>
+  <phrase title="warext_ucm_i18n_entire_filter_result" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1010000" version_string="1.1.0"><![CDATA[Entire filter result]]></phrase>
+  <phrase title="warext_ucm_i18n_move" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1010000" version_string="1.1.0"><![CDATA[Move]]></phrase>
+  <phrase title="warext_ucm_i18n_prepend_to_title" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1010000" version_string="1.1.0"><![CDATA[Prepend to title]]></phrase>
+  <phrase title="warext_ucm_i18n_append_to_title" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1010000" version_string="1.1.0"><![CDATA[Append to title]]></phrase>
+  <phrase title="warext_ucm_i18n_replace_in_title" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1010000" version_string="1.1.0"><![CDATA[Replace in title]]></phrase>
+  <phrase title="warext_ucm_i18n_reply" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1010000" version_string="1.1.0"><![CDATA[Reply]]></phrase>
+  <phrase title="warext_ucm_i18n_views" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1010000" version_string="1.1.0"><![CDATA[Views]]></phrase>
+  <phrase title="warext_ucm_i18n_resource_filters" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1010000" version_string="1.1.0"><![CDATA[Resource Filters]]></phrase>
+  <phrase title="warext_ucm_i18n_resource_bulk_actions" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1010000" version_string="1.1.0"><![CDATA[Resource Bulk Actions]]></phrase>
+  <phrase title="warext_ucm_i18n_selected" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1010000" version_string="1.1.0"><![CDATA[Selected]]></phrase>
+  <phrase title="warext_ucm_i18n_change_category" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1010000" version_string="1.1.0"><![CDATA[Change category]]></phrase>
+  <phrase title="warext_ucm_i18n_choose_category" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1010000" version_string="1.1.0"><![CDATA[Choose category]]></phrase>
+  <phrase title="warext_ucm_i18n_downloads" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1010000" version_string="1.1.0"><![CDATA[Downloads]]></phrase>
+  <phrase title="warext_ucm_i18n_single_warning_based_on_multiple_content_items" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1010000" version_string="1.1.0"><![CDATA[Single Warning Based on Multiple Content Items]]></phrase>
+  <phrase title="warext_ucm_i18n_related_threads" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1010000" version_string="1.1.0"><![CDATA[Related threads]]></phrase>
+  <phrase title="warext_ucm_i18n_last_200_actions" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1010000" version_string="1.1.0"><![CDATA[Last 200 Actions]]></phrase>
+</language>
