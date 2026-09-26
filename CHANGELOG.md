@@ -1,3 +1,10 @@
+## 1.1.0 - 2026-09-26
+
+- Added native Turkish/English XenForo language support.
+- Moved remaining visible template labels/actions to XenForo phrases where applicable.
+- Added separate Turkish and English XML language packs.
+- Added a development rule preventing new hard-coded user-facing UI strings.
+
 # Değişiklik Geçmişi
 
 ## 1.0.5
