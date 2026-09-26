@@ -93,4 +93,36 @@
   <phrase title="warext_ucm_target_forum_required" version_id="1000070" version_string="0.7.0">Taşıma işlemi için erişebildiğiniz bir hedef forum seçmelisiniz.</phrase>
   <phrase title="warext_ucm_hard_delete_confirmation_required" version_id="1000070" version_string="0.7.0">Kalıcı silme işlemini açıkça onaylamalısınız.</phrase>
   <phrase title="warext_ucm_bulk_result_x" version_id="1000070" version_string="0.7.0">Toplu işlem tamamlandı: {processed} işlendi, {skipped} yetki veya durum nedeniyle atlandı, {failed} hata oluştu.</phrase>
+  <phrase title="warext_ucm_i18n_status" version_id="1010000" version_string="1.1.0"><![CDATA[Durum]]></phrase>
+  <phrase title="warext_ucm_i18n_scope" version_id="1010000" version_string="1.1.0"><![CDATA[Kapsam]]></phrase>
+  <phrase title="warext_ucm_i18n_action" version_id="1010000" version_string="1.1.0"><![CDATA[İşlem]]></phrase>
+  <phrase title="warext_ucm_i18n_search_text" version_id="1010000" version_string="1.1.0"><![CDATA[Aranacak metin]]></phrase>
+  <phrase title="warext_ucm_i18n_filter" version_id="1010000" version_string="1.1.0"><![CDATA[Filtrele]]></phrase>
+  <phrase title="warext_ucm_i18n_target_category" version_id="1010000" version_string="1.1.0"><![CDATA[Hedef kategori]]></phrase>
+  <phrase title="warext_ucm_i18n_new_prefix_id" version_id="1010000" version_string="1.1.0"><![CDATA[Yeni önek ID]]></phrase>
+  <phrase title="warext_ucm_i18n_reason" version_id="1010000" version_string="1.1.0"><![CDATA[Neden]]></phrase>
+  <phrase title="warext_ucm_i18n_apply" version_id="1010000" version_string="1.1.0"><![CDATA[Uygula]]></phrase>
+  <phrase title="warext_ucm_i18n_warning_type" version_id="1010000" version_string="1.1.0"><![CDATA[Uyarı türü]]></phrase>
+  <phrase title="warext_ucm_i18n_create_warning" version_id="1010000" version_string="1.1.0"><![CDATA[Uyarıyı Oluştur]]></phrase>
+  <phrase title="warext_ucm_i18n_resources" version_id="1010000" version_string="1.1.0"><![CDATA[Kaynaklar]]></phrase>
+  <phrase title="warext_ucm_i18n_action_history" version_id="1010000" version_string="1.1.0"><![CDATA[İşlem Geçmişi]]></phrase>
+  <phrase title="warext_ucm_i18n_warn" version_id="1010000" version_string="1.1.0"><![CDATA[Uyarı Ver]]></phrase>
+  <phrase title="warext_ucm_i18n_this_page" version_id="1010000" version_string="1.1.0"><![CDATA[Bu sayfa]]></phrase>
+  <phrase title="warext_ucm_i18n_selected_category_forum" version_id="1010000" version_string="1.1.0"><![CDATA[Seçili kategori / forum]]></phrase>
+  <phrase title="warext_ucm_i18n_entire_filter_result" version_id="1010000" version_string="1.1.0"><![CDATA[Tüm filtre sonucu]]></phrase>
+  <phrase title="warext_ucm_i18n_move" version_id="1010000" version_string="1.1.0"><![CDATA[Taşı]]></phrase>
+  <phrase title="warext_ucm_i18n_prepend_to_title" version_id="1010000" version_string="1.1.0"><![CDATA[Başlığın başına ekle]]></phrase>
+  <phrase title="warext_ucm_i18n_append_to_title" version_id="1010000" version_string="1.1.0"><![CDATA[Başlığın sonuna ekle]]></phrase>
+  <phrase title="warext_ucm_i18n_replace_in_title" version_id="1010000" version_string="1.1.0"><![CDATA[Başlıkta değiştir]]></phrase>
+  <phrase title="warext_ucm_i18n_reply" version_id="1010000" version_string="1.1.0"><![CDATA[Cevap]]></phrase>
+  <phrase title="warext_ucm_i18n_views" version_id="1010000" version_string="1.1.0"><![CDATA[Görüntülenme]]></phrase>
+  <phrase title="warext_ucm_i18n_resource_filters" version_id="1010000" version_string="1.1.0"><![CDATA[Kaynak Filtreleri]]></phrase>
+  <phrase title="warext_ucm_i18n_resource_bulk_actions" version_id="1010000" version_string="1.1.0"><![CDATA[Kaynak Toplu İşlemleri]]></phrase>
+  <phrase title="warext_ucm_i18n_selected" version_id="1010000" version_string="1.1.0"><![CDATA[İşaretlenenler]]></phrase>
+  <phrase title="warext_ucm_i18n_change_category" version_id="1010000" version_string="1.1.0"><![CDATA[Kategori değiştir]]></phrase>
+  <phrase title="warext_ucm_i18n_choose_category" version_id="1010000" version_string="1.1.0"><![CDATA[Kategori seçin]]></phrase>
+  <phrase title="warext_ucm_i18n_downloads" version_id="1010000" version_string="1.1.0"><![CDATA[İndirme]]></phrase>
+  <phrase title="warext_ucm_i18n_single_warning_based_on_multiple_content_items" version_id="1010000" version_string="1.1.0"><![CDATA[Birden Fazla İçeriğe Dayalı Tek Uyarı]]></phrase>
+  <phrase title="warext_ucm_i18n_related_threads" version_id="1010000" version_string="1.1.0"><![CDATA[İlgili konular]]></phrase>
+  <phrase title="warext_ucm_i18n_last_200_actions" version_id="1010000" version_string="1.1.0"><![CDATA[Son 200 İşlem]]></phrase>
 </phrases>
