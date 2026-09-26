@@ -1,16 +1,22 @@
 {
     "title": "Warext Studios | XenForo Kullanıcı İçerik Yöneticisi",
     "description": "XenForo kullanıcı içeriklerini içerik türü ve kategori bazında yönetmek için geliştirilmiş kapsamlı moderasyon ve toplu işlem sistemi.",
-    "version_id": 1001050,
-    "version_string": "1.0.5",
+    "version_id": 1010000,
+    "version_string": "1.1.0",
     "dev": "Warext Studios | Support Discord Server",
     "dev_url": "https://discord.gg/tgsV5XMcFS",
     "faq_url": "",
     "support_url": "",
     "extra_urls": [],
     "require": {
-        "XF": [2030000, "XenForo 2.3.0+"],
-        "php": ["8.1.0", "PHP 8.1.0+"]
+        "XF": [
+            2030000,
+            "XenForo 2.3.0+"
+        ],
+        "php": [
+            "8.1.0",
+            "PHP 8.1.0+"
+        ]
     },
     "icon": "fa-tasks"
 }
