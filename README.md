@@ -113,3 +113,8 @@ Super admin hesapları Warext UCM izinlerine otomatik olarak sahiptir. Diğer mo
 Sorularınız, hata bildirimleriniz, kurulum desteği ve Warext Studios XenForo eklentileriyle ilgili yardım için destek Discord sunucumuza katılabilirsiniz:
 
 **Discord:** https://discord.gg/tgsV5XMcFS
+
+
+## Language support / Dil desteği
+
+Version 1.1.0 adds native Turkish/English phrase-based language support and importable XML language packs under `languages/`. See `LANGUAGE.md`.
