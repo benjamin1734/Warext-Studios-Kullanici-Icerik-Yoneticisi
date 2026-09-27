@@ -4,10 +4,6 @@
 
 Warext Studios User Content Manager is a XenForo 2.3 moderation add-on for viewing, filtering, and managing user-created content by content type and category, including permission-controlled bulk actions.
 
-## Version
-
-`1.0.5`
-
 ## Direct XenForo installation
 
 **Installation ZIP:** [WarextStudios-UserContentManager-1.0.5.zip](releases/WarextStudios-UserContentManager-1.0.5.zip?raw=1)
@@ -62,10 +58,6 @@ For questions, bug reports, installation support, and help with Warext Studios X
 
 XenForo 2.3 için kullanıcıların oluşturduğu içerikleri kategori ve içerik türüne göre görüntülemek, filtrelemek ve yetkiye bağlı olarak toplu yönetmek amacıyla geliştirilen moderasyon eklentisi.
 
-## Sürüm
-
-`1.0.5`
-
 ## Doğrudan XenForo Kurulumu
 
 **Kurulum ZIP'i:** [WarextStudios-UserContentManager-1.0.5.zip](releases/WarextStudios-UserContentManager-1.0.5.zip?raw=1)
@@ -113,7 +105,6 @@ Super admin hesapları Warext UCM izinlerine otomatik olarak sahiptir. Diğer mo
 Sorularınız, hata bildirimleriniz, kurulum desteği ve Warext Studios XenForo eklentileriyle ilgili yardım için destek Discord sunucumuza katılabilirsiniz:
 
 **Discord:** https://discord.gg/tgsV5XMcFS
-
 
 ## Language support / Dil desteği
 
