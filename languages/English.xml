@@ -125,4 +125,14 @@
   <phrase title="warext_ucm_i18n_single_warning_based_on_multiple_content_items" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1010000" version_string="1.1.0"><![CDATA[Single Warning Based on Multiple Content Items]]></phrase>
   <phrase title="warext_ucm_i18n_related_threads" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1010000" version_string="1.1.0"><![CDATA[Related threads]]></phrase>
   <phrase title="warext_ucm_i18n_last_200_actions" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1010000" version_string="1.1.0"><![CDATA[Last 200 Actions]]></phrase>
+  <phrase title="admin_permission_warextUcmView" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1010100" version_string="1.1.1"><![CDATA[Can access the User Content Manager admin area]]></phrase>
+  <phrase title="admin_permission_warextUcmBulk" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1010100" version_string="1.1.1"><![CDATA[Can use bulk actions through User Content Manager]]></phrase>
+  <phrase title="admin_permission_warextUcmHardDelete" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1010100" version_string="1.1.1"><![CDATA[Can permanently delete content through User Content Manager]]></phrase>
+  <phrase title="admin_navigation.warextUcmRoot" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1010100" version_string="1.1.1"><![CDATA[User Content Manager]]></phrase>
+  <phrase title="warext_ucm_admin_find_user" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1010100" version_string="1.1.1"><![CDATA[Find a user to manage]]></phrase>
+  <phrase title="warext_ucm_admin_open_manager" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1010100" version_string="1.1.1"><![CDATA[Open content manager]]></phrase>
+  <phrase title="warext_ucm_admin_recent_users" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1010100" version_string="1.1.1"><![CDATA[Recently active users]]></phrase>
+  <phrase title="warext_ucm_admin_no_users" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1010100" version_string="1.1.1"><![CDATA[No users are available to display.]]></phrase>
+  <phrase title="warext_ucm_admin_username_required" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1010100" version_string="1.1.1"><![CDATA[You must enter a username.]]></phrase>
+  <phrase title="warext_ucm_admin_user_not_found" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1010100" version_string="1.1.1"><![CDATA[No user matched that username.]]></phrase>
 </language>
