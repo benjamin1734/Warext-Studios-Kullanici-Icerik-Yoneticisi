@@ -13,10 +13,10 @@ Upload the ZIP directly through XenForo Admin CP > Add-ons > Install/upgrade fro
 ## Usage
 
 - Forum user profile > Moderator tools > Manage Content
-- Admin CP > Users > User Content Manager
-- Admin CP > Users > edit user > Actions > Manage Content
+- Admin CP > User Content Manager > User Content Manager
+- Select a user from the dedicated UCM admin page, then open their content manager
 
-Super admin accounts automatically have Warext UCM permissions. Other moderators and administrators must be granted the relevant `warextUcm` permissions separately.
+The add-on has its own Admin CP category and dedicated admin permissions: `warextUcmView`, `warextUcmBulk`, and `warextUcmHardDelete`. Moderator/user-group permissions under `warextUcm` remain supported. Native XenForo content permissions are still revalidated for every action.
 
 ## Requirements
 
@@ -67,10 +67,10 @@ ZIP doğrudan XenForo Admin CP > Add-ons > Install/upgrade from archive alanına
 ## Kullanım
 
 - Forum kullanıcı profili > Moderator tools > İçerikleri Yönet
-- Admin CP > Users > Kullanıcı İçerik Yöneticisi
-- Admin CP > Users > kullanıcıyı düzenle > Actions > İçerikleri Yönet
+- Admin CP > Kullanıcı İçerik Yöneticisi > Kullanıcı İçerik Yöneticisi
+- Ayrı UCM yönetim sayfasından kullanıcı seçip içerik yöneticisini açabilirsiniz
 
-Super admin hesapları Warext UCM izinlerine otomatik olarak sahiptir. Diğer moderatör ve yöneticiler için ilgili `warextUcm` izinleri ayrıca tanımlanmalıdır.
+Eklentinin kendi Admin CP kategorisi ve ayrı yönetici izinleri vardır: `warextUcmView`, `warextUcmBulk` ve `warextUcmHardDelete`. `warextUcm` altındaki moderatör/kullanıcı grubu izinleri de desteklenmeye devam eder. Her işlemde XenForo'nun yerel içerik yetkileri ayrıca yeniden doğrulanır.
 
 ## Gereksinimler
 
@@ -108,4 +108,4 @@ Sorularınız, hata bildirimleriniz, kurulum desteği ve Warext Studios XenForo 
 
 ## Language support / Dil desteği
 
-Version 1.1.0 adds native Turkish/English phrase-based language support and importable XML language packs under `languages/`. See `LANGUAGE.md`.
+Version 1.1.1 includes the dedicated Admin CP category, granular UCM admin permissions, and Turkish/English language coverage for the new admin interface. See `LANGUAGE.md`.
