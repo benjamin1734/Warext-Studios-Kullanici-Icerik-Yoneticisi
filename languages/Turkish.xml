@@ -125,4 +125,14 @@
   <phrase title="warext_ucm_i18n_single_warning_based_on_multiple_content_items" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1010000" version_string="1.1.0"><![CDATA[Birden Fazla İçeriğe Dayalı Tek Uyarı]]></phrase>
   <phrase title="warext_ucm_i18n_related_threads" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1010000" version_string="1.1.0"><![CDATA[İlgili konular]]></phrase>
   <phrase title="warext_ucm_i18n_last_200_actions" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1010000" version_string="1.1.0"><![CDATA[Son 200 İşlem]]></phrase>
+  <phrase title="admin_permission_warextUcmView" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1010100" version_string="1.1.1"><![CDATA[Kullanıcı İçerik Yöneticisi yönetim alanını görüntüleyebilir]]></phrase>
+  <phrase title="admin_permission_warextUcmBulk" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1010100" version_string="1.1.1"><![CDATA[Kullanıcı İçerik Yöneticisi üzerinden toplu işlemleri kullanabilir]]></phrase>
+  <phrase title="admin_permission_warextUcmHardDelete" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1010100" version_string="1.1.1"><![CDATA[Kullanıcı İçerik Yöneticisi üzerinden kalıcı silme yapabilir]]></phrase>
+  <phrase title="admin_navigation.warextUcmRoot" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1010100" version_string="1.1.1"><![CDATA[Kullanıcı İçerik Yöneticisi]]></phrase>
+  <phrase title="warext_ucm_admin_find_user" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1010100" version_string="1.1.1"><![CDATA[Yönetilecek kullanıcıyı bul]]></phrase>
+  <phrase title="warext_ucm_admin_open_manager" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1010100" version_string="1.1.1"><![CDATA[İçerik yöneticisini aç]]></phrase>
+  <phrase title="warext_ucm_admin_recent_users" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1010100" version_string="1.1.1"><![CDATA[Son aktif kullanıcılar]]></phrase>
+  <phrase title="warext_ucm_admin_no_users" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1010100" version_string="1.1.1"><![CDATA[Gösterilecek kullanıcı bulunamadı.]]></phrase>
+  <phrase title="warext_ucm_admin_username_required" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1010100" version_string="1.1.1"><![CDATA[Bir kullanıcı adı girmelisiniz.]]></phrase>
+  <phrase title="warext_ucm_admin_user_not_found" addon_id="WarextStudios/UserContentManager" global_cache="0" version_id="1010100" version_string="1.1.1"><![CDATA[Bu kullanıcı adıyla eşleşen kullanıcı bulunamadı.]]></phrase>
 </language>
