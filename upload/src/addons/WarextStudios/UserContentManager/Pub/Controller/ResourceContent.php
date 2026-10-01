@@ -2,6 +2,8 @@
 
 namespace WarextStudios\UserContentManager\Pub\Controller;
 
+use WarextStudios\UserContentManager\Permission;
+
 use WarextStudios\UserContentManager\Content\AbstractHandler;
 use WarextStudios\UserContentManager\Service\ResourceBulk;
 use XF\Entity\User;
@@ -17,7 +19,7 @@ class ResourceContent extends AbstractController
     public function actionIndex(ParameterBag $params)
     {
         $visitor = \XF::visitor();
-        if (!$visitor->hasPermission('warextUcm', 'view')) { return $this->noPermission(); }
+        if (!Permission::check('view')) { return $this->noPermission(); }
         if (!class_exists('XFRM\\Entity\\ResourceItem')) { return $this->error('XenForo Resource Manager kurulu veya etkin değil.'); }
         $user = $this->assertRecordExists('XF:User', $params->user_id);
         if (!$user->canViewFullProfile($error)) { return $this->noPermission($error); }
@@ -36,7 +38,7 @@ class ResourceContent extends AbstractController
         return $this->view('WarextStudios\\UserContentManager:ResourceContent', 'wrxt_ucm_resource_content', [
             'user' => $user, 'resources' => $resources, 'filters' => $filters, 'filterParams' => $filterParams,
             'categoryChoices' => $categoryChoices, 'page' => $page, 'perPage' => self::PER_PAGE, 'total' => $total,
-            'canBulk' => $visitor->hasPermission('warextUcm', 'bulk'), 'canHardDelete' => $visitor->hasPermission('warextUcm', 'hardDelete')
+            'canBulk' => Permission::check('bulk'), 'canHardDelete' => Permission::check('hardDelete')
         ]);
     }
 
@@ -44,7 +46,7 @@ class ResourceContent extends AbstractController
     {
         $this->assertPostOnly();
         $visitor = \XF::visitor();
-        if (!$visitor->hasPermission('warextUcm', 'view') || !$visitor->hasPermission('warextUcm', 'bulk')) { return $this->noPermission(); }
+        if (!Permission::check('view') || !Permission::check('bulk')) { return $this->noPermission(); }
         if (!class_exists('XFRM\\Entity\\ResourceItem')) { return $this->error('XenForo Resource Manager kurulu veya etkin değil.'); }
         $user = $this->assertRecordExists('XF:User', $params->user_id);
         $handler = $this->repository('WarextStudios/UserContentManager:Content')->getHandler('resource');
@@ -58,7 +60,7 @@ class ResourceContent extends AbstractController
         $allowed = ['move', 'soft_delete', 'hard_delete', 'restore', 'approve', 'unapprove', 'prefix', 'title_prepend', 'title_append', 'title_replace'];
         if (!in_array($action, $allowed, true) || !in_array($scope, ['selected', 'page', 'filter'], true)) { return $this->error(\XF::phrase('warext_ucm_invalid_bulk_action')); }
         if ($action === 'hard_delete') {
-            if (!$visitor->hasPermission('warextUcm', 'hardDelete')) { return $this->noPermission(); }
+            if (!Permission::check('hardDelete')) { return $this->noPermission(); }
             if (!$this->filter('confirm_hard_delete', 'bool')) { return $this->error(\XF::phrase('warext_ucm_hard_delete_confirmation_required')); }
         }
         $finder = $this->buildFinder($user, $handler, $filters, $visibleCategoryIds);
