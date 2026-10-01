@@ -17,4 +17,33 @@
   <template type="public" title="wrxt_ucm_action_history" version_id="1000100" version_string="0.10.0"><![CDATA[
 <xf:title>{$user.username} | İşlem Geçmişi</xf:title><xf:breadcrumb href="{{ link('members', $user) }}">{$user.username}</xf:breadcrumb><div class="block"><div class="block-container"><h2 class="block-header">{{ phrase('warext_ucm_i18n_last_200_actions') }}</h2><div class="block-body"><xf:foreach loop="$logs" value="$log"><div class="block-row"><b><xf:if is="$log.Actor">{$log.Actor.username}<xf:else />#{$log.actor_user_id}</xf:if></b> · {$log.content_type} #{$log.content_id} · {$log.action}<xf:if is="$log.reason"> · {$log.reason}</xf:if><div class="contentRow-minor"><xf:date time="$log.log_date" /></div></div></xf:foreach></div></div></div>
 ]]></template>
+  <template type="admin" title="wrxt_ucm_admin_index" version_id="1010100" version_string="1.1.1"><![CDATA[
+<xf:title>{{ phrase('admin_navigation.warextUcmRoot') }}</xf:title>
+
+<xf:form action="{{ link('warext-ucm/select') }}" method="post" class="block">
+  <div class="block-container">
+    <h2 class="block-header">{{ phrase('warext_ucm_admin_find_user') }}</h2>
+    <div class="block-body">
+      <xf:textboxrow name="username" label="{{ phrase('username') }}" />
+    </div>
+    <xf:submitrow submit="{{ phrase('warext_ucm_admin_open_manager') }}" />
+  </div>
+</xf:form>
+
+<div class="block">
+  <div class="block-container">
+    <h2 class="block-header">{{ phrase('warext_ucm_admin_recent_users') }}</h2>
+    <div class="block-body">
+      <xf:foreach loop="$recentUsers" value="$recentUser">
+        <div class="block-row">
+          <a href="{{ link('warext-ucm/manage', $recentUser) }}"><strong>{$recentUser.username}</strong></a>
+          <div class="contentRow-minor">#{$recentUser.user_id} · <xf:date time="$recentUser.last_activity" /></div>
+        </div>
+      <xf:else />
+        <div class="block-row">{{ phrase('warext_ucm_admin_no_users') }}</div>
+      </xf:foreach>
+    </div>
+  </div>
+</div>
+]]></template>
 </templates>
