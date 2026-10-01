@@ -2,6 +2,8 @@
 
 namespace WarextStudios\UserContentManager\Pub\Controller;
 
+use WarextStudios\UserContentManager\Permission;
+
 use WarextStudios\UserContentManager\Service\BulkOperationQueue;
 use XF\Mvc\ParameterBag;
 
@@ -12,7 +14,7 @@ class UserContentFinal extends UserContent
         $this->assertPostOnly();
         $visitor = \XF::visitor();
 
-        if (!$visitor->hasPermission('warextUcm', 'view') || !$visitor->hasPermission('warextUcm', 'bulk'))
+        if (!Permission::check('view') || !Permission::check('bulk'))
         {
             return $this->noPermission();
         }
@@ -45,7 +47,7 @@ class UserContentFinal extends UserContent
 
         if ($action === 'hard_delete')
         {
-            if (!$visitor->hasPermission('warextUcm', 'hardDelete'))
+            if (!Permission::check('hardDelete'))
             {
                 return $this->noPermission();
             }
