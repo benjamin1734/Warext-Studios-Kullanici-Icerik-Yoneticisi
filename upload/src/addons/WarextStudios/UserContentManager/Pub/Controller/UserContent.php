@@ -2,6 +2,8 @@
 
 namespace WarextStudios\UserContentManager\Pub\Controller;
 
+use WarextStudios\UserContentManager\Permission;
+
 use WarextStudios\UserContentManager\Content\AbstractHandler;
 use WarextStudios\UserContentManager\Filter\ThreadFilter;
 use WarextStudios\UserContentManager\Service\ThreadBulk;
@@ -20,7 +22,7 @@ class UserContent extends AbstractController
     {
         $visitor = \XF::visitor();
 
-        if (!$visitor->hasPermission('warextUcm', 'view'))
+        if (!Permission::check('view'))
         {
             return $this->noPermission();
         }
@@ -87,8 +89,8 @@ class UserContent extends AbstractController
                 'page' => $page,
                 'perPage' => self::PER_PAGE,
                 'total' => $total,
-                'canBulk' => $visitor->hasPermission('warextUcm', 'bulk'),
-                'canHardDelete' => $visitor->hasPermission('warextUcm', 'hardDelete')
+                'canBulk' => Permission::check('bulk'),
+                'canHardDelete' => Permission::check('hardDelete')
             ]
         );
     }
@@ -99,7 +101,7 @@ class UserContent extends AbstractController
 
         $visitor = \XF::visitor();
 
-        if (!$visitor->hasPermission('warextUcm', 'view') || !$visitor->hasPermission('warextUcm', 'bulk'))
+        if (!Permission::check('view') || !Permission::check('bulk'))
         {
             return $this->noPermission();
         }
@@ -135,7 +137,7 @@ class UserContent extends AbstractController
 
         if ($bulkAction === 'hard_delete')
         {
-            if (!$visitor->hasPermission('warextUcm', 'hardDelete'))
+            if (!Permission::check('hardDelete'))
             {
                 return $this->noPermission();
             }
