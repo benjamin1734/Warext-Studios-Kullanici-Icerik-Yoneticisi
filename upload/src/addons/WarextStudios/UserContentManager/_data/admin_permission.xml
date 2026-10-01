@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<admin_permission>
+  <admin_permission admin_permission_id="warextUcmView" display_order="940"/>
+  <admin_permission admin_permission_id="warextUcmBulk" display_order="950"/>
+  <admin_permission admin_permission_id="warextUcmHardDelete" display_order="960"/>
+</admin_permission>
