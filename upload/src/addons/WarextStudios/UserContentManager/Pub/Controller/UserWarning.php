@@ -2,6 +2,8 @@
 
 namespace WarextStudios\UserContentManager\Pub\Controller;
 
+use WarextStudios\UserContentManager\Permission;
+
 use WarextStudios\UserContentManager\Service\ActionLogger;
 use XF\Mvc\ParameterBag;
 use XF\Pub\Controller\AbstractController;
@@ -11,7 +13,7 @@ class UserWarning extends AbstractController
     public function actionIndex(ParameterBag $params)
     {
         $visitor = \XF::visitor();
-        if (!$visitor->hasPermission('warextUcm', 'view') || !$visitor->hasPermission('warextUcm', 'bulk')) { return $this->noPermission(); }
+        if (!Permission::check('view') || !Permission::check('bulk')) { return $this->noPermission(); }
         $user = $this->assertRecordExists('XF:User', $params->user_id);
         if (!$user->canWarn($error)) { return $this->noPermission($error); }
         $definitions = $this->finder('XF:WarningDefinition')->order('warning_definition_id')->fetch();
@@ -24,7 +26,7 @@ class UserWarning extends AbstractController
     {
         $this->assertPostOnly();
         $visitor = \XF::visitor();
-        if (!$visitor->hasPermission('warextUcm', 'view') || !$visitor->hasPermission('warextUcm', 'bulk')) { return $this->noPermission(); }
+        if (!Permission::check('view') || !Permission::check('bulk')) { return $this->noPermission(); }
         $user = $this->assertRecordExists('XF:User', $params->user_id);
         if (!$user->canWarn($error)) { return $this->noPermission($error); }
         $definitionId = $this->filter('warning_definition_id', 'uint');
